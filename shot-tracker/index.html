@@ -3,10 +3,88 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="refresh" content="0; url=support.html" />
-<title>Shot Tracker</title>
+<title>Shot Tracker: GLP-1 shot log for iPhone and Apple Watch</title>
+<meta name="description" content="Shot Tracker is a private GLP-1 shot log for iPhone and Apple Watch. Log semaglutide, tirzepatide and other GLP-1 doses, rotate injection sites and count down to your next dose. Shot logging is free, with no account and no ads." />
+<link rel="canonical" href="https://chasebig.github.io/shift-legal/shot-tracker/" />
+<meta property="og:title" content="Shot Tracker: GLP-1 shot log for iPhone and Apple Watch" />
+<meta property="og:description" content="Log each GLP-1 dose and injection spot, count down to the next one, and track weight, protein and side effects. Free shot logging, no account." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://chasebig.github.io/shift-legal/shot-tracker/shot-tracker-icon.png" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobileApplication","name":"GLP Shot Tracker","alternateName":"Shot Tracker","operatingSystem":"iOS, watchOS","applicationCategory":"HealthApplication","applicationSubCategory":"GLP-1 medication tracker","description":"A private log for people taking a GLP-1 medication such as semaglutide, tirzepatide, orforglipron, dulaglutide or liraglutide. It records each dose and injection spot, suggests the next spot to rotate sites, counts down to the next dose with reminders, and tracks weight, protein and side effects. It has an Apple Watch app and iPhone widgets. Shot logging, reminders and the countdown are free; Shot Tracker Premium is an optional subscription or one-time purchase.","featureList":["Dose log with injection-site body map and rotation","Countdown and reminders for weekly, daily or custom schedules","Apple Watch app and complication","Home Screen and Lock Screen widgets","Weight trend and goal progress","Protein target","Side-effect log","Estimated medication level from FDA label half-life (Premium)","PDF report and spreadsheet export","Apple Health sync","Face ID or passcode lock","No account, no ads"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"downloadUrl":"https://apps.apple.com/us/app/glp-shot-tracker/id6828228446","installUrl":"https://apps.apple.com/us/app/glp-shot-tracker/id6828228446","image":"https://chasebig.github.io/shift-legal/shot-tracker/shot-tracker-icon.png","author":{"@type":"Person","name":"Chase Small"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Shot Tracker?","acceptedAnswer":{"@type":"Answer","text":"Shot Tracker (GLP Shot Tracker on the App Store) is an iPhone and Apple Watch app for people taking a GLP-1 medication. It logs each dose and injection spot, suggests the next spot so you rotate sites, counts down to your next dose, and keeps your weight, protein and side effects in one place."}},
+{"@type":"Question","name":"Which medications does it work with?","acceptedAnswer":{"@type":"Answer","text":"GLP-1 medications including semaglutide, tirzepatide, orforglipron, dulaglutide and liraglutide, as weekly or daily injections or daily pills. You pick your medication, dose and schedule during setup."}},
+{"@type":"Question","name":"Is Shot Tracker free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dose logging, the countdown and reminders, injection-site rotation, the countdown on widgets and Apple Watch, weight, side effects, Apple Health sync, the app lock and backups are free with no limit. Shot Tracker Premium adds the medication level estimate, Apple Watch logging, protein, trends, photos, measurements, supply tracking and reports, as a monthly or yearly subscription or a one-time lifetime purchase."}},
+{"@type":"Question","name":"Does it work on Apple Watch?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Watch app and complication count down to your next dose for free. With Premium you can log a dose from your wrist, picking the injection spot on a body diagram with the Digital Crown, and see your estimated level and protein today. It needs watchOS 10 or later."}},
+{"@type":"Question","name":"Does Shot Tracker need an account?","acceptedAnswer":{"@type":"Answer","text":"No. There is no account, no sign-in and no ads. Your entries stay on your iPhone and out of iCloud unless you send them to your Apple Watch, to Apple Health or to a file you export."}},
+{"@type":"Question","name":"Can I move my log to a new phone?","acceptedAnswer":{"@type":"Answer","text":"Yes. Export a backup file from Settings and restore it from the Welcome screen on the new phone. You can also import a spreadsheet (CSV) of past doses."}},
+{"@type":"Question","name":"Does Shot Tracker tell me what dose to take?","acceptedAnswer":{"@type":"Answer","text":"No. Shot Tracker is a tracking tool, not a medical device. It doesn't diagnose, treat, or calculate or recommend doses. Always follow your prescriber's instructions."}}
+]}
+</script>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: linear-gradient(180deg, #0A1C18 0%, #07100E 50%, #060708 100%); color: #E6ECEF; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .icon { width: 96px; height: 96px; border-radius: 22px; display: block; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 20px 0 8px; color: #F4F6F8; }
+  .lede { font-size: 19px; color: #C9D1D9; margin: 0 0 24px; }
+  h2 { font-size: 21px; margin: 40px 0 10px; color: #F4F6F8; }
+  ul { padding-left: 20px; } li { margin: 6px 0; color: #C9D1D9; }
+  .cta { display: inline-block; background: #3DF2C6; color: #04201A; font-weight: 700; padding: 12px 22px; border-radius: 999px; text-decoration: none; }
+  a { color: #3DF2C6; }
+  strong { color: #F4F6F8; }
+  dt { font-weight: 700; margin-top: 16px; color: #F4F6F8; } dd { margin: 4px 0 0; color: #C9D1D9; }
+  .note { margin-top: 32px; color: #8B95A1; font-size: 14px; }
+  footer { max-width: 680px; margin: 0 auto; padding: 24px; border-top: 1px solid #1B2A27; font-size: 14px; color: #8B95A1; }
+  footer a { margin-right: 18px; }
+</style>
 </head>
-<body style="background:#060708;color:#E6ECEF;font-family:-apple-system,sans-serif;padding:48px 24px">
-<p><a href="support.html" style="color:#3DF2C6">Shot Tracker support</a> · <a href="privacy-policy.html" style="color:#3DF2C6">Privacy Policy</a> · <a href="terms-of-use.html" style="color:#3DF2C6">Terms of Use</a></p>
+<body>
+<main>
+  <img class="icon" src="./shot-tracker-icon.png" alt="Shot Tracker app icon" width="96" height="96" />
+  <h1>Shot Tracker: GLP-1 shot log for iPhone and Apple&nbsp;Watch</h1>
+  <p class="lede">A private log for people taking a GLP-1 medication such as semaglutide, tirzepatide or orforglipron. Log each dose and injection spot, see when your next shot is due, and keep your weight, protein and side effects in one place. Shot logging is free, with no account.</p>
+  <p><a class="cta" href="https://apps.apple.com/us/app/glp-shot-tracker/id6828228446">Download on the App Store</a></p>
+
+  <h2>What you can track</h2>
+  <ul>
+    <li><strong>Doses and injection sites:</strong> a body map of injection spots that suggests the next spot, so you rotate sites.</li>
+    <li><strong>Your next dose:</strong> a countdown for weekly, daily or every-few-days schedules, with a reminder on dose day and, for weekly doses, the evening before.</li>
+    <li><strong>Weight:</strong> your trend, rate per week and progress toward your goal. Weigh-ins from a smart scale come in through Apple Health.</li>
+    <li><strong>Protein:</strong> one-tap logging toward a daily target.</li>
+    <li><strong>Side effects:</strong> log several at once and see which days after a dose they show up.</li>
+    <li><strong>Supply:</strong> pens and vials on hand, with a reminder to reorder.</li>
+    <li><strong>Reports:</strong> a PDF of your doses, weight and symptoms for an appointment, and a spreadsheet export.</li>
+  </ul>
+
+  <h2>On Apple Watch and your Lock Screen</h2>
+  <p>The Watch app and complication count down to your next dose. With Premium you can log a dose from your wrist: pick the spot on a body diagram with the Digital Crown, check the dose and time, and confirm. Home Screen and Lock Screen widgets show your next dose too.</p>
+
+  <h2>Private by default</h2>
+  <p>No account, no sign-in, no ads and no usage tracking. Your log stays on your iPhone and out of iCloud unless you send it to your Apple Watch, to Apple Health or to a file you export.</p>
+
+  <h2>Questions</h2>
+  <dl>
+    <dt>Is Shot Tracker free?</dt>
+    <dd>Yes. Dose logging, the countdown and reminders, site rotation, the countdown on widgets and Apple Watch, weight, side effects, Apple Health sync, the app lock and backups are free with no limit. Premium adds the medication level estimate, Apple Watch logging, protein, trends, photos, measurements, supply and reports, monthly, yearly (with a 7-day free trial) or as a one-time lifetime purchase.</dd>
+    <dt>Which medications does it work with?</dt>
+    <dd>GLP-1 medications including semaglutide, tirzepatide, orforglipron, dulaglutide and liraglutide, as injections or daily pills.</dd>
+    <dt>How is the medication level estimated?</dt>
+    <dd>From the doses you log and the half-life and time to peak in each medication's FDA label. It's an estimate, not a measurement.</dd>
+    <dt>Can I move my log to a new phone?</dt>
+    <dd>Yes. Export a backup file in Settings, then restore it from the Welcome screen on the new phone. You can also import past doses from a spreadsheet (CSV).</dd>
+    <dt>Does it tell me what dose to take?</dt>
+    <dd>No. Shot Tracker doesn't calculate or recommend doses. Always follow your prescriber's instructions.</dd>
+  </dl>
+  <p class="note">Shot Tracker is a tracking tool. It isn't a medical device, and it doesn't diagnose, treat or recommend doses. It isn't affiliated with any drug manufacturer.</p>
+</main>
+<footer>
+  <a href="./support.html">Support</a>
+  <a href="./privacy-policy.html">Privacy Policy</a>
+  <a href="./terms-of-use.html">Terms of Use</a>
+</footer>
 </body>
 </html>
